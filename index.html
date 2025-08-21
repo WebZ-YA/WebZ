@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebZ | ويبز</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- مكتبة AOS للأنيميشن -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- ====== الهيدر ====== -->
+<header>
+  <div class="container">
+    <div class="logo">
+      <a href="#hero">
+        <img src="images/logo.png" alt="WebZ Logo">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">من نحن</a></li>
+        <li><a href="#services">خدماتنا</a></li>
+        <li><a href="#portfolio">أعمالنا</a></li>
+        <li><a href="#contact">تواصل معنا</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <!-- ====== البطل ====== -->
+  <section class="hero">
+    <div class="hero-content" data-aos="fade-up">
+      <h1>مرحبا بك في <span>WebZ</span></h1>
+      <p>نحن فريق مبرمجين متخصصين في بناء مواقع ويب احترافية بأنواعها المختلفة.</p>
+      <a href="#contact" class="btn">ابدأ الآن</a>
+    </div>
+  </section>
+
+  <!-- ====== من نحن ====== -->
+  <section id="about" class="about section">
+    <div class="container" data-aos="fade-right">
+      <h2>من نحن</h2>
+      <p>
+        نحن في <strong>WebZ</strong> فريق شغوف بتطوير وبناء مواقع الويب، نقدم حلولاً مبتكرة 
+        وبجودة عالية لمختلف أنواع المشاريع من المواقع التعريفية إلى المتاجر الإلكترونية.
+      </p>
+    </div>
+  </section>
+
+  <!-- ====== الخدمات ====== -->
+  <section id="services" class="services section">
+    <div class="container">
+      <h2 data-aos="fade-up">خدماتنا</h2>
+      <div class="services-grid">
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+          <h3>مواقع تعريفية</h3>
+          <p>نصمم مواقع تعريفية للشركات والأفراد لعرض أعمالهم وخدماتهم.</p>
+        </div>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+          <h3>متاجر إلكترونية</h3>
+          <p>نطور متاجر إلكترونية احترافية مع أنظمة دفع وإدارة منتجات.</p>
+        </div>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+          <h3>لوحات تحكم</h3>
+          <p>نصمم لوحات تحكم متكاملة لإدارة المواقع بسهولة وفعالية.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ====== أعمالنا ====== -->
+<section id="portfolio" class="portfolio section">
+  <div class="container">
+    <h2 data-aos="fade-up">أعمالنا السابقة</h2>
+    <div class="portfolio-grid">
+      <!-- مشروع 1 -->
+      <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+        <img src="images/project1.png" alt="مشروع 1">
+        <div class="overlay">
+          <h3>مشروع 1</h3>
+          <p>موقع تعريفي لشركة</p>
+        </div>
+      </div>
+
+      <!-- مشروع 2 -->
+      <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+        <img src="images/project2.png" alt="مشروع 2">
+        <div class="overlay">
+          <h3>مشروع 2</h3>
+          <p>متجر إلكتروني</p>
+        </div>
+      </div>
+
+      <!-- مشروع 3 -->
+      <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="300">
+        <img src="images/project3.png" alt="مشروع 3">
+        <div class="overlay">
+          <h3>مشروع 3</h3>
+          <p>لوحة تحكم مخصصة</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ====== التواصل ====== -->
+  <section id="contact" class="contact section">
+    <div class="container" data-aos="fade-up">
+      <h2>تواصل معنا</h2>
+      <p>للتواصل معنا مباشرة عبر واتساب:</p>
+      <a href="https://wa.me/967778982383" target="_blank" class="btn">راسلنا على واتساب</a>
+    </div>
+  </section>
+
+  <!-- ====== الفوتر ====== -->
+  <footer>
+    <div class="container">
+      <p>© 2025 WebZ - جميع الحقوق محفوظة</p>
+    </div>
+  </footer>
+
+  <!-- سكربتات -->
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
